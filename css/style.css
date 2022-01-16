@@ -1,0 +1,41 @@
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #444;
+  padding: 10px 0 10px 30px;
+}
+dd {
+  margin: 0; 
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.demo-block {
+  width: 360px;
+  margin: 0 auto;
+}
+.accordion__trigger {
+  width: 100%;
+  padding: 10px 0 10px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+  text-align: left;
+  border: 0;
+  color: #fff;
+  background-color: #3498db;
+  cursor: pointer;
+}
+.accordion__trigger:hover,
+.accordion__trigger:focus {
+  background-color: #2980b9;
+}
+
+.hidden {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+}

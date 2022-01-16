@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Accordion</title>
+</head>
+<body>
+  <div class="demo-block">
+    <dl class="accordion">
+      <dt>
+        <button class="accordion__trigger" type="button" aria-controls="profile">Profile</button>
+      </dt>
+      <dd class="accordion__panel" id="profile">
+      <a href="#">Name</a>
+      <a href="#">Email</a>
+      <a href="#info">Info</a>
+      </dd>
+      <dt>
+        <button class="accordion__trigger" type="button" aria-controls="settings">Settings</button>
+      </dt>
+      <dd class="accordion__panel hidden" id="settings">
+      <ul>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Security & Privacy</a></li>
+      </ul>
+      </dd>
+      <dt>
+        <button class="accordion__trigger" type="button" aria-controls="help" >Help</button>
+      </dt>
+      <dd class="accordion__panel hidden" id="help">
+      <ul>
+        <li><a href="#">FAQ's</a></li>
+        <li><a href="#">Submit a Ticket</a></li>
+        <li><a href="#">Network Status</a></li>
+      </ul>
+      </dd>
+      <dt><button class="accordion__trigger" type="button" aria-controls="logout">Logout</button></dt>
+      <dd class="accordion__panel hidden" id="logout">
+        <a href=#>Are you sure to logout?</a>
+      </dd>
+    </dl>
+  </div>
+  <script src="js/accordion.js"></script>
+</body>
+</html>
